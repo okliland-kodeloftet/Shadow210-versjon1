@@ -58,3 +58,46 @@ body{
     padding: 16px; 
 }
 
+.runner{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.runnerContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+width: 50%;
+}
+
+.runnerContainer p{
+    width: 300px;
+}
+
+.runnerList{
+    list-style-type: none;
+}
+
+.runnerImg{
+    height: 500px;
+    width: 500px;
+}
+.contacts{
+    display: flex; 
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contactCards{
+    width: 300px;
+    border: 1px solid #010101;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contactCardImg{
+    width: 100%;
+}
