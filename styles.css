@@ -16,7 +16,7 @@ body{
 }
 
 .headerList{
-    background-color: #000000b3;
+    background-color: #010101b3;
     list-style-type: none;
     margin-left: 0;
     display: flex;
@@ -44,5 +44,17 @@ body{
 }
 
 .heroTitle{
-    
+    color: blueviolet;
+    background-color: #010101b3;
+    width: 300px;
+    padding: 16px;
+    text-align: center;
 }
+
+.heroText{
+    color: blueviolet;
+    background-color: #010100b3;
+    width: 300px;
+    padding: 16px; 
+}
+
