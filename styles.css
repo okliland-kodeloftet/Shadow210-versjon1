@@ -30,3 +30,19 @@ body{
 .listItem{
 
 }
+
+.hero{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("img/Samlebilde.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.heroTitle{
+    
+}
