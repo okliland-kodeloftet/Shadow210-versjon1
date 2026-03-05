@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background-color: #010101;
 }
 
 .header{
@@ -66,6 +67,7 @@ body{
 }
 
 .runnerContainer{
+    color: blueviolet;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -73,6 +75,7 @@ width: 50%;
 }
 
 .runnerContainer p{
+    color: blueviolet;
     width: 300px;
 }
 
@@ -85,6 +88,7 @@ width: 50%;
     width: 500px;
 }
 .contacts{
+    color: blueviolet;
     display: flex; 
     height: 100vh;
     align-items: center;
@@ -92,12 +96,23 @@ width: 50%;
 }
 
 .contactCards{
+    color: blueviolet;
     width: 300px;
-    border: 1px solid #010101;
+    height: 310px;
+    border: 1px solid #ffffff;
     border-radius: 10px;
     text-align: center;
 }
 
 .contactCardImg{
     width: 100%;
+}
+
+.runnerImgGrogg{
+    height: 550px;
+    width: 500px;
+}
+
+.contactCardImgVannrett{
+    width: 40%;
 }
