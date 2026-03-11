@@ -44,15 +44,6 @@ body{
     background-position: center;
 }
 
-.contactImg{
-    display: flex;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-}
-
 .heroTitle{
     color: blueviolet;
     background-color: #010101b3;
