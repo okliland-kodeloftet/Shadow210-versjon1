@@ -59,8 +59,13 @@ body{
     padding: 16px; 
 }
 
+.overskift{
+    display: flex;
+    justify-content: center; 
+}
+
 .runner{
-    height: 100vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,10 +94,11 @@ width: 50%;
 }
 
 .downtime{
-    height: 100vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row-reverse;
 }
 
 .downtimeContainer{
@@ -108,12 +114,15 @@ width: 50%;
     width: 300px;
 }
 
-
+.downtimeImg{
+    height: 400px;
+    width: 600px;
+}
 
 .contacts{
     color: blueviolet;
     display: flex; 
-    height: 100vh;
+    height: 50vh;
     align-items: center;
     justify-content: space-around;
 }
