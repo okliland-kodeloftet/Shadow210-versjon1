@@ -52,6 +52,13 @@ body{
     text-align: center;
 }
 
+.heroIntro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;/* (16px) */
+}
+
 .heroText{
     color: blueviolet;
     background-color: #010100b3;
